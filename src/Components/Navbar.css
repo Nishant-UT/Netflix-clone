@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  height: 25px;
+  justify-content: space-around;
+  padding: 10px 20px 10px 20px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 999;
+  transition: ease-out 0.2s;
+}
+.navbar_dark {
+  display: flex;
+  height: 25px;
+  justify-content: space-around;
+  padding: 10px 20px 10px 20px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 999;
+  background-color: #111;
+  transition: ease-in 0.2s;
+}
+.navbar_logo {
+  left: 30px;
+  object-fit: contain;
+  width: 100px;
+  position: fixed;
+}
+.navbar_user {
+  position: fixed;
+  object-fit: contain;
+  width: 30px;
+  right: 30px;
+}
+.options {
+  position: fixed;
+  object-fit: contain;
+  display: none;
+  color: #fff;
+  background-color: rgba(17, 17, 17, 0.5);
+  right: 60px;
+  opacity: 100%;
+}
+.navbar_user:hover + .options {
+  cursor: pointer;
+  display: grid;
+}
+.options:hover {
+  cursor: pointer;
+  display: grid;
+}
+.option_btn {
+  margin: 2px;
+  padding: 1px;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+}
+.option_btn:hover {
+  color: #111;
+  background-color: #fff;
+  transition: all 0.05s;
+}
