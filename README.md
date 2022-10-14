@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+This is a Netflix-clone constructed using React.js and is hosted live utilizing Google Firebase 
+https://netflix-clone-8e306.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
